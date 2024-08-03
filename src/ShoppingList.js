@@ -2,11 +2,11 @@ import React from 'react';
 
 const ShoppingList = ({ items, removeItem }) => {
   return (
-    <ul style={{ listStyleType: 'none', padding: '0' }}>
+    <ul>
       {items.map((item, index) => (
-        <li key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-          <button onClick={() => removeItem(index)} style={{ marginRight: '10px' }}>X</button>
-          {item.name} (x{item.quantity})
+        <li key={index}>
+          <button className="remove-item" onClick={() => removeItem(index)}>X</button>
+          <span>{item.name} (Quantity: {item.quantity})</span>
         </li>
       ))}
     </ul>
