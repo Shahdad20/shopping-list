@@ -30,3 +30,21 @@ button {
 .item-name-input {
   margin-right: 50px; /* 50 pixels space between item name box and quantity */
 }
+
+/* Add responsiveness */
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+  }
+
+  button {
+    width: 100%; /* Full-width button on smaller screens */
+    margin: 10px 0;
+  }
+
+  .item-name-input {
+    margin-right: 0; /* Reset margin for smaller screens */
+    width: 100%; /* Full-width input on smaller screens */
+  }
+}
+
