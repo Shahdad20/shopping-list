@@ -1,0 +1,9 @@
+How to use this web app on your phone:
+
+1. Open your desired browser
+2. Browse to shopbasket.netlify.app
+3. Tap on the hamburger butoon
+4. Tap on Add to Home Screen
+5. Once "Install app" window opens, tap on "Install"
+6. After completion of installation is completed, Shop Basket will be added to your apps and is ready to use.
+
