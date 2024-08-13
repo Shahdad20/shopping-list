@@ -52,7 +52,12 @@ button {
   margin-right: 50px; /* 50 pixels space between item name box and quantity */
 }
 
-/* New CSS rule for the quantity input box */
 .quantity-input {
   width: 20%; /* Set width to one-fifth of the original */
+  max-width: 50px; /* Optional: limit the maximum width */
+}
+
+/* Add space before the Reset List button */
+.reset-button {
+  margin-top: 40px; /* Adds two lines of space before the button */
 }

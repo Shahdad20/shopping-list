@@ -22,7 +22,7 @@ const AddItemForm = ({ addItem }) => {
         placeholder="Item name"
         style={{
           marginRight: '10px',
-          width: '6%', // Set the width to two-thirds of its original size
+          width: '25%', // Set the width to two-thirds of its original size
         }}
       />
       <input
