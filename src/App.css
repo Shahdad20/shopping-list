@@ -14,16 +14,18 @@ h1 {
   text-align: center; /* Center justify Shopping List */
 }
 
-ul {
+ul.shopping-list-container {
   list-style-type: none;
   padding: 0;
-  text-align: center; /* Center align the list */
+  margin: 0 auto;
+  text-align: left; /* Left align the list items */
+  max-width: 400px; /* Optional: limit the width of the list */
 }
 
-li {
+li.shopping-list-item {
   display: flex; /* Use flexbox for alignment */
   align-items: center; /* Vertically center the items */
-  justify-content: center; /* Horizontally center the items */
+  justify-content: flex-start; /* Align items to the start (left) */
   margin: 10px 0;
 }
 
@@ -35,7 +37,7 @@ button.remove-item {
   border: none; /* Remove border */
   border-radius: 50%; /* Make it circular */
   cursor: pointer; /* Pointer cursor on hover */
-  margin-right: 10px; /* Space between button and item name */
+  margin-right: 5px; /* Reduce space between button and item name */
 }
 
 button.remove-item:hover {
@@ -48,4 +50,9 @@ button {
 
 .item-name-input {
   margin-right: 50px; /* 50 pixels space between item name box and quantity */
+}
+
+/* New CSS rule for the quantity input box */
+.quantity-input {
+  width: 20%; /* Set width to one-fifth of the original */
 }
